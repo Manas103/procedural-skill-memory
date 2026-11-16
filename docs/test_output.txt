@@ -1,0 +1,18 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-9.1.0, pluggy-1.7.0 -- C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow\projects\procedural-skill-memory\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Manas\Downloads\Auto Job Applier\Total Job Application process flow
+configfile: pytest.ini
+collecting ... collected 9 items
+
+tests\test_families.py::test_sound_implementation_always_matches_the_oracle PASSED [ 11%]
+tests\test_families.py::test_flawed_implementation_has_a_real_input_dependent_bug PASSED [ 22%]
+tests\test_gate.py::test_sound_implementation_always_passes_the_gate PASSED [ 33%]
+tests\test_gate.py::test_an_always_wrong_implementation_never_passes_the_gate PASSED [ 44%]
+tests\test_gate.py::test_gate_draws_exactly_n_replay_instances_on_success PASSED [ 55%]
+tests\test_library.py::test_admit_records_event_and_makes_skill_available PASSED [ 66%]
+tests\test_library.py::test_admitting_a_second_family_does_not_disturb_the_first PASSED [ 77%]
+tests\test_simulation.py::test_gate_rejects_a_flawed_skill_that_only_got_lucky_once PASSED [ 88%]
+tests\test_simulation.py::test_ungated_admits_strictly_at_least_as_often_as_gated PASSED [100%]
+
+============================== 9 passed in 0.11s ==============================

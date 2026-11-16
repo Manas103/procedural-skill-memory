@@ -1,0 +1,10 @@
+repeated instances: 264 (6 families x 22 episodes x 2 instances)
+no-skill first-attempt success: 56.06%
+gated-skill first-attempt success: 64.39%
+avg tokens/instance, no skill: 44.99
+avg tokens/instance, gated skill: 37.96
+token reduction: 15.63%
+
+admission soundness (60 episodes/family x 6 families, 20 instances/episode):
+  gated admissions:   {'admissions': 360, 'unsound': 9, 'unsound_pct': 2.5}
+  ungated admissions: {'admissions': 360, 'unsound': 117, 'unsound_pct': 32.5}
